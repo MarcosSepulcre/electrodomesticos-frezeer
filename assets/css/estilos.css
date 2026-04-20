@@ -1,0 +1,278 @@
+
+*{
+	background-color: #FCFCFC;
+	margin: 0;
+	padding: 0;
+}
+
+/* Importación a nivel local de la tipografia Sekuya para los títulos h1, h2, h3, ...*/
+@font-face {
+     font-family: Sekuya;
+	 src: url("../font/Sekuya-Regular.ttf");
+}
+
+/* Definición la cabecera HEADER de la web y las diferentes clases de cabeceras de las secciones de la web */
+header{
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	border-top: 2px solid #6B696A;
+	border-bottom: 2px solid #6B696A;
+	background-color: #6B696A;
+    	background-position: center; 
+    	background-repeat: no-repeat;
+    	float: left;
+}
+header.inicio{
+	background-image: url('../img/cabecera.jpg');
+	background-size: 1200px;
+	background-position: center;
+}
+header.nuestro-secreto{
+	background-image: url('../img/hamburguesa-header3.jpg');
+}
+header.productos{
+	background-image: url('../img/hamburguesa-header4.jpg');
+}
+.transparente{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.65);
+	filter:alpha(opacity=65);
+	‐moz‐opacity:0.65;
+	‐khtml‐opacity: 0.65;
+	opacity: 0.65;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+	margin: 110px auto 0 auto;
+	text-align: center;
+}
+
+/* Definición de los titulos h1, h2, h3, ... de las secciones */
+h1{
+	font-family: Sekuya;
+	font-size: 40px;
+	color: #6B696A;
+}
+
+h2{
+	font-family: Sekuya;
+	font-size: 25px;
+	color: #6B696A;
+	text-decoration: underline;
+}
+
+h3{
+	font-family: Sekuya;
+	font-size: 20px;
+	color: #6B696A;
+	text-decoration: underline;
+}
+h4{
+	font-family: Sekuya;
+	font-size: 16px;
+	color: #6B696A;
+	letter-spacing: 2px;
+}
+
+
+section{
+	width: 100%;
+	float: left;
+}
+
+.cuerpo{
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#capa_menu{
+	width: 100%;
+	margin: 10px 0 50px 0;
+}
+.capa_logo{
+	width: 400px;
+	margin: 0;
+	float: left;
+}
+.logo{
+	width: 390px;
+	float: left;
+}
+nav{
+	width: 660px
+	margin: 10px 0;
+}
+
+ul.menu{
+	width: 660px;
+	float: right;
+	list-style: none;
+	margin: 15px 0 0 0;
+}
+
+ul.menu li{
+	text-align: right;
+	padding: 0 15px;
+	color: white;
+	font-weight: 20px;
+	float: left;
+}
+ul.menu li a{
+	color: white;
+	padding: 5px 10px;
+	font-weight: 20px;
+	text-decoration: none;
+	background-color: #6B696A;
+	border: 2px solid #6B696A;
+	border-radius: 5px;
+
+}
+ul.menu li a:hover{
+	background-color: #FFF;
+	color: #0E0097;
+}
+ul.menu li a.seleccionada{
+	color: #0E0097;
+	background-color: #FFF;
+	border: 2px solid #6B696A;
+	border-radius: 5px;
+}
+article{
+	margin-top: 50px;
+	width: 100%;
+	color: #6B696A;
+	float: left;
+}
+article p{
+	margin: 15px 0;
+	padding: 0;
+	line-height: 25px;
+	float: left;
+}
+article ul.lista_inicio li p{
+	margin: 15px 0;
+	padding: 0;
+	line-height: 25px;
+	float: left;
+}
+
+/* Estilos del contenido de la página de inicio */
+article ul.lista_inicio{
+	margin: 10px  0;
+	list-style: none;
+	width: 700px;
+	float: right;
+}
+article ul.lista_inicio li{
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+.foto_article{
+	width:450px;
+	float: right;
+	margin: 20px 0 0 50px;
+}
+
+/* Estilos de la página nuestro-secreto */
+.contenido-nuestro-secreto{
+	width: 600px;
+	float: left;
+}
+/* Estilos de la galería de fotos */
+ul.galeria{
+	width: 100%;
+	margin: 15px  0;
+	list-style: none;
+	float: left;
+}
+ul.galeria li{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+
+/* Estilos del pie de la web */
+footer{
+	width: 100%;
+	border-top: 2px solid #6B696A;
+	margin: 50px auto 20px 0;
+	float: left;
+}
+
+.footer_izq{
+	width: 25%;
+	float: left;
+	text-align: left;
+}
+
+.icono-redes{
+	font-size: 40px;
+}
+/* capa privacidad del pie de la web */
+.footer_izq p{
+	width: 100%;
+	color: #6B696A;
+	text-align: left;
+	margin: 5px 0;
+	padding: 0;
+	line-height: 25px;
+}
+.footer_izq p a{
+	text-decoration: none;
+	color: #6B696A;
+}
+.footer_izq p a:hover{
+	text-decoration: underline;
+}
+.footer_centro{
+	width: 25%;
+	float: left;
+	text-align: left;
+}
+.footer_centro p{
+	width: 100%;
+	color: #6B696A;
+	text-align: left;
+	margin: 5px 0;
+	padding: 0;
+	line-height: 25px;
+}
+.footer_centro p a{
+	text-decoration: none;
+	color: #6B696A;
+}
+.footer_centro p a:hover{
+	text-decoration: underline;
+}
+
+.footer_dcha{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.footer_dcha p{
+	width: 100%;
+	color: #6B696A;
+	text-align: right;
+	margin: 5px 0;
+	padding: 0;
+	line-height: 25px;
+}
+.footer_dcha p a{
+	text-decoration: none;
+	color: #6B696A;
+}
+.footer_dcha p a:hover{
+	text-decoration: underline;
+}
+.footer_dcha p a.icono-redes{
+	text-decoration: none;
+}
+.footer_dcha p a.icono-redes:hover{
+	text-decoration: none;
+}
+
