@@ -1,8 +1,9 @@
 
-*{
+body{
 	background-color: #FCFCFC;
 	margin: 0;
 	padding: 0;
+	color: #6B696A;
 }
 
 /* Importación a nivel local de la tipografia Sekuya para los títulos h1, h2, h3, ...*/
@@ -14,63 +15,87 @@
 /* Definición la cabecera HEADER de la web y las diferentes clases de cabeceras de las secciones de la web */
 header{
 	width: 100%;
-	height: 400px;
-	margin: 0;
-	border-top: 2px solid #6B696A;
-	border-bottom: 2px solid #6B696A;
-	background-color: #6B696A;
-    	background-position: center; 
-    	background-repeat: no-repeat;
+	height: 500px;
+	margin: 15px 0;
     	float: left;
 }
-header.inicio{
+.modulo_gris_home{
+	width: 100%;
+	height: 400px;
 	background-image: url('../img/cabecera.jpg');
 	background-size: 1200px;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #6B696A;
+	float: left;
+	margin: 15px 0 0 0;
 }
-header.nuestro-secreto{
+.modulo_granate{
+	width: 100%;
+	background-color: #882B59;
+	color: #FFF;
+	float: left;
+	margin: 15px 0 0 0;
+	padding: 50px 0;
+}
+.modulo_transparente{
+	width: 100%;
+	float: left;
+	margin: 15px 0 0 0;
+	padding: 50px 0;
+}
+.centro{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+.inicio{
+	height: 400px;
+	background-image: url('../img/cabecera.jpg');
+	background-size: 1200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 0;
+}
+.nuestro-secreto{
 	background-image: url('../img/hamburguesa-header3.jpg');
 }
-header.productos{
+.productos{
 	background-image: url('../img/hamburguesa-header4.jpg');
 }
 .transparente{
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.65);
-	filter:alpha(opacity=65);
-	‐moz‐opacity:0.65;
-	‐khtml‐opacity: 0.65;
-	opacity: 0.65;
-	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=65);
-	margin: 110px auto 0 auto;
+	margin: 100px 0 0 0;
 	text-align: center;
+	float: left;
+	padding: 0;
 }
 
 /* Definición de los titulos h1, h2, h3, ... de las secciones */
 h1{
 	font-family: Sekuya;
-	font-size: 40px;
-	color: #6B696A;
+	font-size: 27px;
+	text-align: right;
 }
 
 h2{
 	font-family: Sekuya;
 	font-size: 25px;
-	color: #6B696A;
 	text-decoration: underline;
 }
 
 h3{
 	font-family: Sekuya;
 	font-size: 20px;
-	color: #6B696A;
 	text-decoration: underline;
 }
 h4{
 	font-family: Sekuya;
 	font-size: 16px;
-	color: #6B696A;
 	letter-spacing: 2px;
+	margin: 15px 0 0 0;
 }
 
 
@@ -79,100 +104,93 @@ section{
 	float: left;
 }
 
-.cuerpo{
-	width: 1200px;
-	margin: 20px auto;
-	padding: 20px;
-}
 
-#capa_menu{
-	width: 100%;
-	margin: 10px 0 50px 0;
-}
-.capa_logo{
-	width: 400px;
-	margin: 0;
-	float: left;
-}
 .logo{
 	width: 390px;
 	float: left;
+	height: 65px;
 }
 nav{
-	width: 660px
-	margin: 10px 0;
+	width: 100%;
+	margin: 20px 0;
 }
 
-ul.menu{
-	width: 660px;
-	float: right;
-	list-style: none;
-	margin: 15px 0 0 0;
-}
-
-ul.menu li{
-	text-align: right;
-	padding: 0 15px;
-	color: white;
-	font-weight: 20px;
+.menu{
+	width: 100%;
 	float: left;
+	padding: 15px 0 0 0;
 }
-ul.menu li a{
+
+.menu a:first-child{
+	width: 400px;
+	margin: 0 100px 0 0;
+	float: left;
+	background: transparent;
+	border: none;
+	border-radius: none;
+
+}
+.menu a{
 	color: white;
-	padding: 5px 10px;
+	padding: 5px 8px;
 	font-weight: 20px;
 	text-decoration: none;
 	background-color: #6B696A;
 	border: 2px solid #6B696A;
-	border-radius: 5px;
+	border-radius: 3px;
+	font-size: 17px;
+	float: left;
+	padding: 5px 10px;
+	margin: 20px 0 0 10px;
 
 }
-ul.menu li a:hover{
+.menu a:hover{
 	background-color: #FFF;
 	color: #0E0097;
 }
-ul.menu li a.seleccionada{
+.menu a.seleccionada{
 	color: #0E0097;
 	background-color: #FFF;
 	border: 2px solid #6B696A;
-	border-radius: 5px;
+	border-radius: 3px;
+	float: left;
+	padding: 5px 10px;
+	margin: 20px 0 0 10px;
 }
+
 article{
-	margin-top: 50px;
 	width: 100%;
-	color: #6B696A;
 	float: left;
-}
-article p{
 	margin: 15px 0;
-	padding: 0;
-	line-height: 25px;
-	float: left;
 }
-article ul.lista_inicio li p{
-	margin: 15px 0;
-	padding: 0;
-	line-height: 25px;
-	float: left;
-}
+
 
 /* Estilos del contenido de la página de inicio */
 article ul.lista_inicio{
 	margin: 10px  0;
 	list-style: none;
-	width: 700px;
-	float: right;
+	width: 650px;
+	float: left;
+	padding: 0;
 }
 article ul.lista_inicio li{
 	margin: 30px 0 0 0;
 	padding: 0;
 	list-style: none;
 }
+article ul.lista_inicio li p{
+	margin: 0px;
+	padding: 0;
+	line-height: 25px;
+}
 .foto_article{
 	width:450px;
 	float: right;
 	margin: 20px 0 0 50px;
 }
+
+
+
 
 /* Estilos de la página nuestro-secreto */
 .contenido-nuestro-secreto{
@@ -198,9 +216,10 @@ ul.galeria li{
 /* Estilos del pie de la web */
 footer{
 	width: 100%;
-	border-top: 2px solid #6B696A;
-	margin: 50px auto 20px 0;
+/*	border-top: 2px solid #6B696A;*/
+	margin: 50px 0;
 	float: left;
+	padding: 20px 0;
 }
 
 .footer_izq{
