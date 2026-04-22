@@ -178,7 +178,7 @@ article ul.lista_inicio li{
 	padding: 0;
 	list-style: none;
 }
-article ul.lista_inicio li p{
+article ul.lista_inicio li p, p{
 	margin: 0px;
 	padding: 0;
 	line-height: 25px;
@@ -216,7 +216,6 @@ ul.galeria li{
 /* Estilos del pie de la web */
 footer{
 	width: 100%;
-/*	border-top: 2px solid #6B696A;*/
 	margin: 50px 0;
 	float: left;
 	padding: 20px 0;
@@ -232,7 +231,7 @@ footer{
 	font-size: 40px;
 }
 /* capa privacidad del pie de la web */
-.footer_izq p{
+.footer_izq nav{
 	width: 100%;
 	color: #6B696A;
 	text-align: left;
@@ -240,32 +239,19 @@ footer{
 	padding: 0;
 	line-height: 25px;
 }
-.footer_izq p a{
-	text-decoration: none;
-	color: #6B696A;
-}
-.footer_izq p a:hover{
-	text-decoration: underline;
-}
+
 .footer_centro{
 	width: 25%;
 	float: left;
 	text-align: left;
 }
-.footer_centro p{
+.footer_centro nav{
 	width: 100%;
 	color: #6B696A;
 	text-align: left;
 	margin: 5px 0;
 	padding: 0;
 	line-height: 25px;
-}
-.footer_centro p a{
-	text-decoration: none;
-	color: #6B696A;
-}
-.footer_centro p a:hover{
-	text-decoration: underline;
 }
 
 .footer_dcha{
@@ -273,7 +259,7 @@ footer{
 	float: left;
 	text-align: right;
 }
-.footer_dcha p{
+.footer_dcha nav{
 	width: 100%;
 	color: #6B696A;
 	text-align: right;
@@ -281,17 +267,27 @@ footer{
 	padding: 0;
 	line-height: 25px;
 }
-.footer_dcha p a{
+
+.footer_centro a, .footer_izq a{
+	width: 100%;
+	float: left;
 	text-decoration: none;
 	color: #6B696A;
+	margin: 5px 0;
 }
-.footer_dcha p a:hover{
+.footer_centro a:hover, .footer_dcha a:hover, .footer_izq a:hover{
 	text-decoration: underline;
 }
-.footer_dcha p a.icono-redes{
+
+.footer_dcha a{
+	text-decoration: none;
+	color: #6B696A;
+	margin: 5px 0;
+}
+.footer_dcha a.icono-redes{
 	text-decoration: none;
 }
-.footer_dcha p a.icono-redes:hover{
+.footer_dcha a.icono-redes:hover{
 	text-decoration: none;
 }
 
