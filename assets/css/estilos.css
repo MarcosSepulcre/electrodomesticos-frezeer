@@ -38,6 +38,9 @@ header{
 	margin: 15px 0 0 0;
 	padding: 50px 0;
 }
+.color_granate{
+	color: #882B59;
+}
 .modulo_transparente{
 	width: 100%;
 	float: left;
@@ -84,6 +87,7 @@ h2{
 	font-family: Sekuya;
 	font-size: 25px;
 	text-decoration: underline;
+
 }
 
 h3{
@@ -135,8 +139,8 @@ nav{
 	padding: 5px 8px;
 	font-weight: 20px;
 	text-decoration: none;
-	background-color: #6B696A;
-	border: 2px solid #6B696A;
+	background-color: #882B59;
+	border: 2px solid #882B59;
 	border-radius: 3px;
 	font-size: 17px;
 	float: left;
@@ -151,7 +155,7 @@ nav{
 .menu a.seleccionada{
 	color: #0E0097;
 	background-color: #FFF;
-	border: 2px solid #6B696A;
+	border: 2px solid #882B59;
 	border-radius: 3px;
 	float: left;
 	padding: 5px 10px;
@@ -281,7 +285,7 @@ footer{
 
 .footer_dcha a{
 	text-decoration: none;
-	color: #6B696A;
+	color: #882B59;
 	margin: 5px 0;
 }
 .footer_dcha a.icono-redes{
