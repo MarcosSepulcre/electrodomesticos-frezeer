@@ -17,25 +17,36 @@ body{
 	centro con los que me ayudo a darle estilo a las diferentes sections y centrar los textos
 	, de los elementos genéricos de la web (titulos h1, h2, h3 y h4, colores, section, article, leer más, ...)*/
 
+section{
+	width: 100%;
+	float: left;
+	margin: 50px 0 0 0;
+}
+article{
+	width: 1200px;
+	float: left;
+	margin: 15px 0;
+}
 .modulo_naranja{
 	width: 100%;
 	background-color: #FD9B01;
 	color: #FFF;
 	float: left;
 	margin: 15px 0 0 0;
-	padding: 50px 0 20px 0;
+	padding: 20px 0 20px 0;
 }
 .modulo_transparente{
 	width: 100%;
 	float: left;
 	margin: 15px 0 0 0;
-	padding: 50px 0 20px 0;
+	padding: 10px 0 20px 0;
 }
 .centro{
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0;
 }
+
 h1{
 	font-family: Rubik;
 	font-size: 40px;
@@ -47,6 +58,7 @@ h2{
 	font-family: Rubik;
 	font-size: 30px;
 	color: #FD9B01;
+	margin: 10px 0;
 }
 h3{
 	font-family: Rubik;
@@ -63,15 +75,6 @@ h4{
 }
 .color_naranja{
 	color: #FD9B01;
-}
-section{
-	width: 100%;
-	float: left;
-}
-article{
-	width: 1200px;
-	float: left;
-	margin: 15px 0;
 }
 .leer_mas{
 	text-align: right;
@@ -208,7 +211,7 @@ article ul.lista_inicio li{
 	list-style: none;
 }
 article ul.lista_inicio li p, p{
-	margin: 0px;
+	margin: 15px 0;
 	padding: 0;
 	line-height: 25px;
 }
