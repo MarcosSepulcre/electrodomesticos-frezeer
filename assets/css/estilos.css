@@ -18,12 +18,10 @@ body{
 	, de los elementos genéricos de la web (titulos h1, h2, h3 y h4, colores, section, article, leer más, ...)*/
 
 section{
-	width: 100%;
 	float: left;
 	margin: 50px 0 0 0;
 }
 article{
-	width: 1200px;
 	float: left;
 	margin: 15px 0;
 }
@@ -93,7 +91,6 @@ h4{
 /* 	Definición de los estilos de los elementos del header */
 
 header{
-	width: 100%;
 	margin: 0;
     	float: left;
 }
@@ -261,7 +258,7 @@ article ul.lista_productos li{
 	padding: 0;
 	width: 286px;
 	float: left;
-	height: 480px;
+	height: 525px;
 	border: 2px solid #FFF;
 }
 article ul.lista_productos li:hover{
@@ -408,56 +405,89 @@ footer{
 .footer_izq{
 	width: 25%;
 	float: left;
-	text-align: left;
 }
 
-.footer_izq nav{
+.footer_izq ul{
+	list-style: none;
 	width: 100%;
-	color: #000;
-	text-align: left;
 	margin: 5px 0;
 	padding: 0;
+}
+.footer_izq ul li{
 	line-height: 25px;
+	margin: 10px 0;
 }
 
 .footer_centro{
 	width: 25%;
 	float: left;
-	text-align: left;
 }
-.footer_centro nav{
+.footer_centro ul{
+	list-style: none;
 	width: 100%;
-	color: #000;
-	text-align: left;
 	margin: 5px 0;
 	padding: 0;
+	list-style: none;
 	line-height: 25px;
 }
-
+.footer_centro ul li{
+	line-height: 25px;
+	margin: 10px 0;
+}
 .footer_dcha{
 	width: 50%;
 	float: left;
 	text-align: right;
 }
-.footer_dcha nav{
+.footer_dcha ul{
+	list-style: none;
 	width: 100%;
 	color: #000;
 	text-align: right;
 	margin: 5px 0;
 	padding: 0;
-	line-height: 25px;
 }
-
-.footer_centro a, .footer_izq a{
+.footer_dcha ul{
+	list-style: none;
 	width: 100%;
-	float: left;
+	color: #000;
+	text-align: right;
+	margin: 5px 0;
+	padding: 0;
+}
+.footer_dcha ul li:first-child{
+	list-style: none;
+	width: 100%;
+	color: #000;
+	text-align: right;
+	margin: 5px 0;
+	padding: 0;
+}
+.footer_dcha ul li{
+	list-style: none;
+	float: right;
+	width: 50px;
+	color: #000;
+	text-align: right;
+	margin: 5px 0;
+	padding: 0;
+}
+.footer_dcha ul li:last-child{
+	list-style: none;
+	width: 100%;
+	color: #000;
+	text-align: right;
+	margin: 20px 0;
+	padding: 0;
+}
+.footer_centro a, .footer_izq a{
 	text-decoration: none;
 	color: #000;
-	margin: 5px 0;
 }
 .footer_centro a:hover, .footer_dcha a:hover, .footer_izq a:hover{
 	text-decoration: underline;
 }
+
 .footer_dcha p {
     margin: 20px 0 10px 0;
 }
