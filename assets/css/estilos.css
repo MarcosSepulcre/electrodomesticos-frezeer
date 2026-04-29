@@ -18,6 +18,7 @@ body{
 	, de los elementos genéricos de la web (titulos h1, h2, h3 y h4, colores, section, article, leer más, ...)*/
 
 section{
+	width: 100%;
 	float: left;
 	margin: 50px 0 0 0;
 }
