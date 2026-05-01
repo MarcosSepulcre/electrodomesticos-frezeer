@@ -86,7 +86,7 @@ h4{
 header{
 	margin: 0;
 	width: 100%;
-    	float: left;
+    float: left;
 }
 .banner_top{
 	width: 100%;
@@ -121,7 +121,7 @@ header{
 	font-size: 30px;
 	margin: 10px 25px 5px 5px;
 	color: #FDAE01;
-
+	float: left;
 }
 .iconos-cabecera:hover{
 	color: #000;
@@ -252,7 +252,7 @@ article ul.lista_elegirnos li p, p{
 }
 
 
-/* Estilos del módulo y sección blog */
+/* Estilos del módulo y página blog */
 
 article.noticias{
 	width: 500px;
