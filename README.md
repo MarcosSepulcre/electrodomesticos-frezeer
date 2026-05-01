@@ -1,0 +1,1 @@
+Ejercicio obligatorio para el TEMA 3, titulado HTML/CSS, del CURSO SUPERIOR EN PROGRAMACIÓN DE PÁGINAS WEB de la empresa DAVANTE MASTER-D: página web de una tienda de electrodomésticos online llamada ELECTRO FREZEER.
