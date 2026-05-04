@@ -50,6 +50,6 @@ function validar_presupuesto(){
 		alert('Debes de aceptar las condiciones de privacidad.');
 		return false;
 	}
-	alert("Formulario rellenado correctamente");
+	alert("Felicidades! Formulario rellenado correctamente!");
 	return false;
 }
