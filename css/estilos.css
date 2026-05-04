@@ -13,7 +13,7 @@
 
 @font-face {
      font-family: Rubik;
-	 src: url("../font/Rubik-VariableFont_wght.ttf");
+	 src: url("Rubik-VariableFont_wght.ttf");
 }
 
 
@@ -114,7 +114,7 @@ header{
 .form_buscador input {
     	padding: 10px 10px;
     	width: 500px;
-    	background: url(../img/lupa.png) no-repeat right;
+    	background: url("../images/lupa.png") no-repeat right;
     	background-position-x: 480px;
 }
 .iconos-cabecera{
