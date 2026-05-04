@@ -112,10 +112,10 @@ header{
 	float: left;
 }
 .form_buscador input {
-    	padding: 10px 10px;
-    	width: 500px;
-    	background: url("../images/lupa.png") no-repeat right;
-    	background-position-x: 480px;
+	padding: 10px 10px;
+	width: 500px;
+	background: url("../images/lupa.png") no-repeat right;
+	background-position-x: 480px;
 }
 .iconos-cabecera{
 	font-size: 30px;
@@ -208,7 +208,6 @@ ul.opiniones li{
 	width: 200px;
 	height: auto;
 }
-
 .opiniones{
 	width: 1200px;
 	list-style: none;
@@ -364,8 +363,6 @@ article ul.lista_productos li p button:hover{
 
 
 
-
-
 /* 	Estilos de la página presupuesto */
 
 .presupuesto{
@@ -401,7 +398,6 @@ a.enlace_politica{
 a.enlace_politica:hover{
 	text-decoration: underline;
 }
-
 
 
 
@@ -451,7 +447,6 @@ footer{
 	width: 25%;
 	float: left;
 }
-
 .footer_izq ul{
 	list-style: none;
 	width: 100%;
@@ -535,7 +530,6 @@ footer{
 .footer_centro a:hover, .footer_dcha a:hover, .footer_izq a:hover{
 	text-decoration: underline;
 }
-
 .footer_dcha p {
     margin: 20px 0 10px 0;
 }
